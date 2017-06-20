@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD5E4AF1EF9E6880034FAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5E4AE1EF9E6880034FAD7 /* AppDelegate.swift */; };
+		1FD5E4B11EF9E6880034FAD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5E4B01EF9E6880034FAD7 /* ViewController.swift */; };
+		1FD5E4B31EF9E6880034FAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5E4B21EF9E6880034FAD7 /* Assets.xcassets */; };
+		1FD5E4B61EF9E6880034FAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5E4B41EF9E6880034FAD7 /* Main.storyboard */; };
+		1FD5E4C11EF9E6880034FAD7 /* shazam_spotify_osxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5E4C01EF9E6880034FAD7 /* shazam_spotify_osxTests.swift */; };
+		1FD5E4CC1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5E4CB1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FD5E4BD1EF9E6880034FAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD5E4A31EF9E6870034FAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD5E4AA1EF9E6870034FAD7;
+			remoteInfo = shazam_spotify_osx;
+		};
+		1FD5E4C81EF9E6880034FAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD5E4A31EF9E6870034FAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD5E4AA1EF9E6870034FAD7;
+			remoteInfo = shazam_spotify_osx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FD5E4AB1EF9E6880034FAD7 /* shazam_spotify_osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shazam_spotify_osx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5E4AE1EF9E6880034FAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FD5E4B01EF9E6880034FAD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FD5E4B21EF9E6880034FAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD5E4B51EF9E6880034FAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD5E4B71EF9E6880034FAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD5E4BC1EF9E6880034FAD7 /* shazam_spotify_osxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shazam_spotify_osxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5E4C01EF9E6880034FAD7 /* shazam_spotify_osxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shazam_spotify_osxTests.swift; sourceTree = "<group>"; };
+		1FD5E4C21EF9E6880034FAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD5E4C71EF9E6880034FAD7 /* shazam_spotify_osxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shazam_spotify_osxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5E4CB1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shazam_spotify_osxUITests.swift; sourceTree = "<group>"; };
+		1FD5E4CD1EF9E6880034FAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD5E4A81EF9E6870034FAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5E4B91EF9E6880034FAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5E4C41EF9E6880034FAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD5E4A21EF9E6870034FAD7 = {
+			isa = PBXGroup;
+			children = (
+				1FD5E4AD1EF9E6880034FAD7 /* shazam_spotify_osx */,
+				1FD5E4BF1EF9E6880034FAD7 /* shazam_spotify_osxTests */,
+				1FD5E4CA1EF9E6880034FAD7 /* shazam_spotify_osxUITests */,
+				1FD5E4AC1EF9E6880034FAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD5E4AC1EF9E6880034FAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5E4AB1EF9E6880034FAD7 /* shazam_spotify_osx.app */,
+				1FD5E4BC1EF9E6880034FAD7 /* shazam_spotify_osxTests.xctest */,
+				1FD5E4C71EF9E6880034FAD7 /* shazam_spotify_osxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD5E4AD1EF9E6880034FAD7 /* shazam_spotify_osx */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5E4AE1EF9E6880034FAD7 /* AppDelegate.swift */,
+				1FD5E4B01EF9E6880034FAD7 /* ViewController.swift */,
+				1FD5E4B21EF9E6880034FAD7 /* Assets.xcassets */,
+				1FD5E4B41EF9E6880034FAD7 /* Main.storyboard */,
+				1FD5E4B71EF9E6880034FAD7 /* Info.plist */,
+			);
+			path = shazam_spotify_osx;
+			sourceTree = "<group>";
+		};
+		1FD5E4BF1EF9E6880034FAD7 /* shazam_spotify_osxTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5E4C01EF9E6880034FAD7 /* shazam_spotify_osxTests.swift */,
+				1FD5E4C21EF9E6880034FAD7 /* Info.plist */,
+			);
+			path = shazam_spotify_osxTests;
+			sourceTree = "<group>";
+		};
+		1FD5E4CA1EF9E6880034FAD7 /* shazam_spotify_osxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5E4CB1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift */,
+				1FD5E4CD1EF9E6880034FAD7 /* Info.plist */,
+			);
+			path = shazam_spotify_osxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD5E4AA1EF9E6870034FAD7 /* shazam_spotify_osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD5E4D01EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osx" */;
+			buildPhases = (
+				1FD5E4A71EF9E6870034FAD7 /* Sources */,
+				1FD5E4A81EF9E6870034FAD7 /* Frameworks */,
+				1FD5E4A91EF9E6870034FAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shazam_spotify_osx;
+			productName = shazam_spotify_osx;
+			productReference = 1FD5E4AB1EF9E6880034FAD7 /* shazam_spotify_osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FD5E4BB1EF9E6880034FAD7 /* shazam_spotify_osxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD5E4D31EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osxTests" */;
+			buildPhases = (
+				1FD5E4B81EF9E6880034FAD7 /* Sources */,
+				1FD5E4B91EF9E6880034FAD7 /* Frameworks */,
+				1FD5E4BA1EF9E6880034FAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD5E4BE1EF9E6880034FAD7 /* PBXTargetDependency */,
+			);
+			name = shazam_spotify_osxTests;
+			productName = shazam_spotify_osxTests;
+			productReference = 1FD5E4BC1EF9E6880034FAD7 /* shazam_spotify_osxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FD5E4C61EF9E6880034FAD7 /* shazam_spotify_osxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD5E4D61EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osxUITests" */;
+			buildPhases = (
+				1FD5E4C31EF9E6880034FAD7 /* Sources */,
+				1FD5E4C41EF9E6880034FAD7 /* Frameworks */,
+				1FD5E4C51EF9E6880034FAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD5E4C91EF9E6880034FAD7 /* PBXTargetDependency */,
+			);
+			name = shazam_spotify_osxUITests;
+			productName = shazam_spotify_osxUITests;
+			productReference = 1FD5E4C71EF9E6880034FAD7 /* shazam_spotify_osxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD5E4A31EF9E6870034FAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Marcel;
+				TargetAttributes = {
+					1FD5E4AA1EF9E6870034FAD7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q4SL5H75QK;
+						ProvisioningStyle = Automatic;
+					};
+					1FD5E4BB1EF9E6880034FAD7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q4SL5H75QK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FD5E4AA1EF9E6870034FAD7;
+					};
+					1FD5E4C61EF9E6880034FAD7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q4SL5H75QK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FD5E4AA1EF9E6870034FAD7;
+					};
+				};
+			};
+			buildConfigurationList = 1FD5E4A61EF9E6870034FAD7 /* Build configuration list for PBXProject "shazam_spotify_osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD5E4A21EF9E6870034FAD7;
+			productRefGroup = 1FD5E4AC1EF9E6880034FAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD5E4AA1EF9E6870034FAD7 /* shazam_spotify_osx */,
+				1FD5E4BB1EF9E6880034FAD7 /* shazam_spotify_osxTests */,
+				1FD5E4C61EF9E6880034FAD7 /* shazam_spotify_osxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD5E4A91EF9E6870034FAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5E4B31EF9E6880034FAD7 /* Assets.xcassets in Resources */,
+				1FD5E4B61EF9E6880034FAD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5E4BA1EF9E6880034FAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5E4C51EF9E6880034FAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD5E4A71EF9E6870034FAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5E4B11EF9E6880034FAD7 /* ViewController.swift in Sources */,
+				1FD5E4AF1EF9E6880034FAD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5E4B81EF9E6880034FAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5E4C11EF9E6880034FAD7 /* shazam_spotify_osxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5E4C31EF9E6880034FAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5E4CC1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD5E4BE1EF9E6880034FAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD5E4AA1EF9E6870034FAD7 /* shazam_spotify_osx */;
+			targetProxy = 1FD5E4BD1EF9E6880034FAD7 /* PBXContainerItemProxy */;
+		};
+		1FD5E4C91EF9E6880034FAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD5E4AA1EF9E6870034FAD7 /* shazam_spotify_osx */;
+			targetProxy = 1FD5E4C81EF9E6880034FAD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FD5E4B41EF9E6880034FAD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD5E4B51EF9E6880034FAD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD5E4CE1EF9E6880034FAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD5E4CF1EF9E6880034FAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1FD5E4D11EF9E6880034FAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4SL5H75QK;
+				INFOPLIST_FILE = shazam_spotify_osx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcel.shazam-spotify-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FD5E4D21EF9E6880034FAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4SL5H75QK;
+				INFOPLIST_FILE = shazam_spotify_osx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcel.shazam-spotify-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FD5E4D41EF9E6880034FAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4SL5H75QK;
+				INFOPLIST_FILE = shazam_spotify_osxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcel.shazam-spotify-osxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shazam_spotify_osx.app/Contents/MacOS/shazam_spotify_osx";
+			};
+			name = Debug;
+		};
+		1FD5E4D51EF9E6880034FAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4SL5H75QK;
+				INFOPLIST_FILE = shazam_spotify_osxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcel.shazam-spotify-osxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shazam_spotify_osx.app/Contents/MacOS/shazam_spotify_osx";
+			};
+			name = Release;
+		};
+		1FD5E4D71EF9E6880034FAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4SL5H75QK;
+				INFOPLIST_FILE = shazam_spotify_osxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcel.shazam-spotify-osxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shazam_spotify_osx;
+			};
+			name = Debug;
+		};
+		1FD5E4D81EF9E6880034FAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4SL5H75QK;
+				INFOPLIST_FILE = shazam_spotify_osxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcel.shazam-spotify-osxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shazam_spotify_osx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD5E4A61EF9E6870034FAD7 /* Build configuration list for PBXProject "shazam_spotify_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5E4CE1EF9E6880034FAD7 /* Debug */,
+				1FD5E4CF1EF9E6880034FAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD5E4D01EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5E4D11EF9E6880034FAD7 /* Debug */,
+				1FD5E4D21EF9E6880034FAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FD5E4D31EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5E4D41EF9E6880034FAD7 /* Debug */,
+				1FD5E4D51EF9E6880034FAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FD5E4D61EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5E4D71EF9E6880034FAD7 /* Debug */,
+				1FD5E4D81EF9E6880034FAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD5E4A31EF9E6870034FAD7 /* Project object */;
+}
