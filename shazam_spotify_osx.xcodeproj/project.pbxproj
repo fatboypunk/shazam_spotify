@@ -13,6 +13,7 @@
 		1FD5E4B61EF9E6880034FAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5E4B41EF9E6880034FAD7 /* Main.storyboard */; };
 		1FD5E4C11EF9E6880034FAD7 /* shazam_spotify_osxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5E4C01EF9E6880034FAD7 /* shazam_spotify_osxTests.swift */; };
 		1FD5E4CC1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5E4CB1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift */; };
+		2BFB95DD3E466B60E9EBFE3D /* Pods_shazam_spotify_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56159101141936BE82FBCC2D /* Pods_shazam_spotify_osx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,9 @@
 		1FD5E4C71EF9E6880034FAD7 /* shazam_spotify_osxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shazam_spotify_osxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD5E4CB1EF9E6880034FAD7 /* shazam_spotify_osxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shazam_spotify_osxUITests.swift; sourceTree = "<group>"; };
 		1FD5E4CD1EF9E6880034FAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E97E6C50A25BEED83B7F2D /* Pods-shazam_spotify_osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shazam_spotify_osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shazam_spotify_osx/Pods-shazam_spotify_osx.debug.xcconfig"; sourceTree = "<group>"; };
+		56159101141936BE82FBCC2D /* Pods_shazam_spotify_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shazam_spotify_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F1824FDBC49B0FA0CD0F67 /* Pods-shazam_spotify_osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shazam_spotify_osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-shazam_spotify_osx/Pods-shazam_spotify_osx.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFB95DD3E466B60E9EBFE3D /* Pods_shazam_spotify_osx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,8 @@
 				1FD5E4BF1EF9E6880034FAD7 /* shazam_spotify_osxTests */,
 				1FD5E4CA1EF9E6880034FAD7 /* shazam_spotify_osxUITests */,
 				1FD5E4AC1EF9E6880034FAD7 /* Products */,
+				45AE49C07324150C933FAE2E /* Pods */,
+				630BA949223D149DE309862D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +129,23 @@
 			path = shazam_spotify_osxUITests;
 			sourceTree = "<group>";
 		};
+		45AE49C07324150C933FAE2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50E97E6C50A25BEED83B7F2D /* Pods-shazam_spotify_osx.debug.xcconfig */,
+				91F1824FDBC49B0FA0CD0F67 /* Pods-shazam_spotify_osx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		630BA949223D149DE309862D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56159101141936BE82FBCC2D /* Pods_shazam_spotify_osx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD5E4D01EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osx" */;
 			buildPhases = (
+				B0CA740AAF345F2330E93564 /* [CP] Check Pods Manifest.lock */,
 				1FD5E4A71EF9E6870034FAD7 /* Sources */,
 				1FD5E4A81EF9E6870034FAD7 /* Frameworks */,
 				1FD5E4A91EF9E6870034FAD7 /* Resources */,
+				C8BB66DBA2A5EF1AFC167F60 /* [CP] Embed Pods Frameworks */,
+				CE5FE33DD11AAFCC72A4D7C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0CA740AAF345F2330E93564 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BB66DBA2A5EF1AFC167F60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shazam_spotify_osx/Pods-shazam_spotify_osx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5FE33DD11AAFCC72A4D7C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shazam_spotify_osx/Pods-shazam_spotify_osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FD5E4A71EF9E6870034FAD7 /* Sources */ = {
@@ -400,6 +475,7 @@
 		};
 		1FD5E4D11EF9E6880034FAD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E97E6C50A25BEED83B7F2D /* Pods-shazam_spotify_osx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -414,6 +490,7 @@
 		};
 		1FD5E4D21EF9E6880034FAD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F1824FDBC49B0FA0CD0F67 /* Pods-shazam_spotify_osx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -507,6 +584,7 @@
 				1FD5E4D21EF9E6880034FAD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FD5E4D31EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osxTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +593,7 @@
 				1FD5E4D51EF9E6880034FAD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FD5E4D61EF9E6880034FAD7 /* Build configuration list for PBXNativeTarget "shazam_spotify_osxUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +602,7 @@
 				1FD5E4D81EF9E6880034FAD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

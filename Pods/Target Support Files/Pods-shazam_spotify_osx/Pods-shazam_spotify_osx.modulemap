@@ -1,0 +1,6 @@
+framework module Pods_shazam_spotify_osx {
+  umbrella header "Pods-shazam_spotify_osx-umbrella.h"
+
+  export *
+  module * { export * }
+}
